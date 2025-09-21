@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.UnitTests", "tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.IntegrationTests", "tests\DepthChart.IntegrationTests\DepthChart.IntegrationTests.csproj", "{602E90DB-AD6D-45B5-911B-61E0D64A238D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.Common", "DepthChart.Common\DepthChart.Common.csproj", "{B7C02F92-E408-49CA-AA7B-787D8DCB9557}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.Common", "src\DepthChart.Common\DepthChart.Common.csproj", "{B7C02F92-E408-49CA-AA7B-787D8DCB9557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

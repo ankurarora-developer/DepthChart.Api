@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\DepthChart.Common\DepthChart.Common.csproj" />
     <ProjectReference Include="..\DepthChart.Application\DepthChart.Application.csproj" />
+    <ProjectReference Include="..\DepthChart.Common\DepthChart.Common.csproj" />
     <ProjectReference Include="..\DepthChart.Contracts\DepthChart.Contracts.csproj" />
     <ProjectReference Include="..\DepthChart.Domain\DepthChart.Domain.csproj" />
     <ProjectReference Include="..\DepthChart.Infrastructure\DepthChart.Infrastructure.csproj" />
