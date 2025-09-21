@@ -1,0 +1,23 @@
+meta {
+  name: Remove
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{BaseUrl}}/teams/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/depthchart/remove
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "Position": "QB",
+    "Name": "Test LWR1",
+    "Number": 11551
+  }
+}
+
+settings {
+  encodeUrl: true
+}

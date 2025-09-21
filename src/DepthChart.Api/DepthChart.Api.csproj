@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.20" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DepthChart.Common\DepthChart.Common.csproj" />
+    <ProjectReference Include="..\DepthChart.Application\DepthChart.Application.csproj" />
+    <ProjectReference Include="..\DepthChart.Contracts\DepthChart.Contracts.csproj" />
+    <ProjectReference Include="..\DepthChart.Domain\DepthChart.Domain.csproj" />
+    <ProjectReference Include="..\DepthChart.Infrastructure\DepthChart.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

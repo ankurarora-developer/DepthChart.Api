@@ -1,0 +1,24 @@
+meta {
+  name: AddPlayerToDepthChart
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BaseUrl}}/teams/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa/depthchart/add
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "position": "QB",
+    "name": "Test LWR",
+    "number": 99,
+    "positionDepth": 2
+  }
+}
+
+settings {
+  encodeUrl: true
+}
